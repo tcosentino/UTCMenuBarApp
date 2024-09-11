@@ -1,0 +1,586 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B406D2892C923AF100917A0A /* UTCMenuBarAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B406D2882C923AF100917A0A /* UTCMenuBarAppApp.swift */; };
+		B406D28B2C923AF100917A0A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B406D28A2C923AF100917A0A /* ContentView.swift */; };
+		B406D28D2C923AF200917A0A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B406D28C2C923AF200917A0A /* Assets.xcassets */; };
+		B406D2902C923AF200917A0A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B406D28F2C923AF200917A0A /* Preview Assets.xcassets */; };
+		B406D29B2C923AF200917A0A /* UTCMenuBarAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B406D29A2C923AF200917A0A /* UTCMenuBarAppTests.swift */; };
+		B406D2A52C923AF200917A0A /* UTCMenuBarAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B406D2A42C923AF200917A0A /* UTCMenuBarAppUITests.swift */; };
+		B406D2A72C923AF200917A0A /* UTCMenuBarAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B406D2A62C923AF200917A0A /* UTCMenuBarAppUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B406D2972C923AF200917A0A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B406D27D2C923AF000917A0A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B406D2842C923AF000917A0A;
+			remoteInfo = UTCMenuBarApp;
+		};
+		B406D2A12C923AF200917A0A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B406D27D2C923AF000917A0A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B406D2842C923AF000917A0A;
+			remoteInfo = UTCMenuBarApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B406D2852C923AF100917A0A /* UTCMenuBarApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UTCMenuBarApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B406D2882C923AF100917A0A /* UTCMenuBarAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UTCMenuBarAppApp.swift; sourceTree = "<group>"; };
+		B406D28A2C923AF100917A0A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		B406D28C2C923AF200917A0A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B406D28F2C923AF200917A0A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B406D2912C923AF200917A0A /* UTCMenuBarApp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = UTCMenuBarApp.entitlements; sourceTree = "<group>"; };
+		B406D2962C923AF200917A0A /* UTCMenuBarAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UTCMenuBarAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B406D29A2C923AF200917A0A /* UTCMenuBarAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UTCMenuBarAppTests.swift; sourceTree = "<group>"; };
+		B406D2A02C923AF200917A0A /* UTCMenuBarAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UTCMenuBarAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B406D2A42C923AF200917A0A /* UTCMenuBarAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UTCMenuBarAppUITests.swift; sourceTree = "<group>"; };
+		B406D2A62C923AF200917A0A /* UTCMenuBarAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UTCMenuBarAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B406D2822C923AF000917A0A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B406D2932C923AF200917A0A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B406D29D2C923AF200917A0A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B406D27C2C923AF000917A0A = {
+			isa = PBXGroup;
+			children = (
+				B406D2872C923AF100917A0A /* UTCMenuBarApp */,
+				B406D2992C923AF200917A0A /* UTCMenuBarAppTests */,
+				B406D2A32C923AF200917A0A /* UTCMenuBarAppUITests */,
+				B406D2862C923AF100917A0A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B406D2862C923AF100917A0A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B406D2852C923AF100917A0A /* UTCMenuBarApp.app */,
+				B406D2962C923AF200917A0A /* UTCMenuBarAppTests.xctest */,
+				B406D2A02C923AF200917A0A /* UTCMenuBarAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B406D2872C923AF100917A0A /* UTCMenuBarApp */ = {
+			isa = PBXGroup;
+			children = (
+				B406D2882C923AF100917A0A /* UTCMenuBarAppApp.swift */,
+				B406D28A2C923AF100917A0A /* ContentView.swift */,
+				B406D28C2C923AF200917A0A /* Assets.xcassets */,
+				B406D2912C923AF200917A0A /* UTCMenuBarApp.entitlements */,
+				B406D28E2C923AF200917A0A /* Preview Content */,
+			);
+			path = UTCMenuBarApp;
+			sourceTree = "<group>";
+		};
+		B406D28E2C923AF200917A0A /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				B406D28F2C923AF200917A0A /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		B406D2992C923AF200917A0A /* UTCMenuBarAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				B406D29A2C923AF200917A0A /* UTCMenuBarAppTests.swift */,
+			);
+			path = UTCMenuBarAppTests;
+			sourceTree = "<group>";
+		};
+		B406D2A32C923AF200917A0A /* UTCMenuBarAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B406D2A42C923AF200917A0A /* UTCMenuBarAppUITests.swift */,
+				B406D2A62C923AF200917A0A /* UTCMenuBarAppUITestsLaunchTests.swift */,
+			);
+			path = UTCMenuBarAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B406D2842C923AF000917A0A /* UTCMenuBarApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B406D2AA2C923AF200917A0A /* Build configuration list for PBXNativeTarget "UTCMenuBarApp" */;
+			buildPhases = (
+				B406D2812C923AF000917A0A /* Sources */,
+				B406D2822C923AF000917A0A /* Frameworks */,
+				B406D2832C923AF000917A0A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UTCMenuBarApp;
+			productName = UTCMenuBarApp;
+			productReference = B406D2852C923AF100917A0A /* UTCMenuBarApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B406D2952C923AF200917A0A /* UTCMenuBarAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B406D2AD2C923AF200917A0A /* Build configuration list for PBXNativeTarget "UTCMenuBarAppTests" */;
+			buildPhases = (
+				B406D2922C923AF200917A0A /* Sources */,
+				B406D2932C923AF200917A0A /* Frameworks */,
+				B406D2942C923AF200917A0A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B406D2982C923AF200917A0A /* PBXTargetDependency */,
+			);
+			name = UTCMenuBarAppTests;
+			productName = UTCMenuBarAppTests;
+			productReference = B406D2962C923AF200917A0A /* UTCMenuBarAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B406D29F2C923AF200917A0A /* UTCMenuBarAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B406D2B02C923AF200917A0A /* Build configuration list for PBXNativeTarget "UTCMenuBarAppUITests" */;
+			buildPhases = (
+				B406D29C2C923AF200917A0A /* Sources */,
+				B406D29D2C923AF200917A0A /* Frameworks */,
+				B406D29E2C923AF200917A0A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B406D2A22C923AF200917A0A /* PBXTargetDependency */,
+			);
+			name = UTCMenuBarAppUITests;
+			productName = UTCMenuBarAppUITests;
+			productReference = B406D2A02C923AF200917A0A /* UTCMenuBarAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B406D27D2C923AF000917A0A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					B406D2842C923AF000917A0A = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					B406D2952C923AF200917A0A = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = B406D2842C923AF000917A0A;
+					};
+					B406D29F2C923AF200917A0A = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = B406D2842C923AF000917A0A;
+					};
+				};
+			};
+			buildConfigurationList = B406D2802C923AF000917A0A /* Build configuration list for PBXProject "UTCMenuBarApp" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B406D27C2C923AF000917A0A;
+			productRefGroup = B406D2862C923AF100917A0A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B406D2842C923AF000917A0A /* UTCMenuBarApp */,
+				B406D2952C923AF200917A0A /* UTCMenuBarAppTests */,
+				B406D29F2C923AF200917A0A /* UTCMenuBarAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B406D2832C923AF000917A0A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B406D2902C923AF200917A0A /* Preview Assets.xcassets in Resources */,
+				B406D28D2C923AF200917A0A /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B406D2942C923AF200917A0A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B406D29E2C923AF200917A0A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B406D2812C923AF000917A0A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B406D28B2C923AF100917A0A /* ContentView.swift in Sources */,
+				B406D2892C923AF100917A0A /* UTCMenuBarAppApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B406D2922C923AF200917A0A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B406D29B2C923AF200917A0A /* UTCMenuBarAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B406D29C2C923AF200917A0A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B406D2A72C923AF200917A0A /* UTCMenuBarAppUITestsLaunchTests.swift in Sources */,
+				B406D2A52C923AF200917A0A /* UTCMenuBarAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B406D2982C923AF200917A0A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B406D2842C923AF000917A0A /* UTCMenuBarApp */;
+			targetProxy = B406D2972C923AF200917A0A /* PBXContainerItemProxy */;
+		};
+		B406D2A22C923AF200917A0A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B406D2842C923AF000917A0A /* UTCMenuBarApp */;
+			targetProxy = B406D2A12C923AF200917A0A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		B406D2A82C923AF200917A0A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B406D2A92C923AF200917A0A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		B406D2AB2C923AF200917A0A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = UTCMenuBarApp/UTCMenuBarApp.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"UTCMenuBarApp/Preview Content\"";
+				DEVELOPMENT_TEAM = 4VX3W3J2QD;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = teecos.UTCMenuBarApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		B406D2AC2C923AF200917A0A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = UTCMenuBarApp/UTCMenuBarApp.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"UTCMenuBarApp/Preview Content\"";
+				DEVELOPMENT_TEAM = 4VX3W3J2QD;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = teecos.UTCMenuBarApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		B406D2AE2C923AF200917A0A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4VX3W3J2QD;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = teecos.UTCMenuBarAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UTCMenuBarApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/UTCMenuBarApp";
+			};
+			name = Debug;
+		};
+		B406D2AF2C923AF200917A0A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4VX3W3J2QD;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = teecos.UTCMenuBarAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UTCMenuBarApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/UTCMenuBarApp";
+			};
+			name = Release;
+		};
+		B406D2B12C923AF200917A0A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4VX3W3J2QD;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = teecos.UTCMenuBarAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = UTCMenuBarApp;
+			};
+			name = Debug;
+		};
+		B406D2B22C923AF200917A0A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4VX3W3J2QD;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = teecos.UTCMenuBarAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = UTCMenuBarApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B406D2802C923AF000917A0A /* Build configuration list for PBXProject "UTCMenuBarApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B406D2A82C923AF200917A0A /* Debug */,
+				B406D2A92C923AF200917A0A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B406D2AA2C923AF200917A0A /* Build configuration list for PBXNativeTarget "UTCMenuBarApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B406D2AB2C923AF200917A0A /* Debug */,
+				B406D2AC2C923AF200917A0A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B406D2AD2C923AF200917A0A /* Build configuration list for PBXNativeTarget "UTCMenuBarAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B406D2AE2C923AF200917A0A /* Debug */,
+				B406D2AF2C923AF200917A0A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B406D2B02C923AF200917A0A /* Build configuration list for PBXNativeTarget "UTCMenuBarAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B406D2B12C923AF200917A0A /* Debug */,
+				B406D2B22C923AF200917A0A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B406D27D2C923AF000917A0A /* Project object */;
+}
